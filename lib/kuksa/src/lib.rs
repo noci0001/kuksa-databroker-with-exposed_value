@@ -14,7 +14,7 @@
 use http::Uri;
 use std::collections::HashMap;
 
-use databroker_proto::kuksa::val::{self as proto, v1::DataEntry};
+pub use databroker_proto::kuksa::val::{self as proto, v1::DataEntry};
 
 use kuksa_common::{Client, ClientError};
 
